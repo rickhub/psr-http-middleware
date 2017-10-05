@@ -1,6 +1,6 @@
 {
   "name": "rickhub/psr-http-middleware",
-  "description": "Common interface for HTTP middleware",
+  "description": "Common interface for HTTP middleware (PSR-7, PSR-15)",
   "keywords": [
     "psr",
     "psr-7",
