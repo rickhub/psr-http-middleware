@@ -1,0 +1,33 @@
+{
+  "name": "rickhub/psr-http-middleware",
+  "description": "Common interface for HTTP middleware",
+  "keywords": [
+    "psr",
+    "psr-7",
+    "psr-15",
+    "http",
+    "http-message",
+    "http-middleware",
+    "request",
+    "response"
+  ],
+  "authors": [
+    {
+      "name": "rckd"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "psr/http-message": "1.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Psr\\Http\\Middleware\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
