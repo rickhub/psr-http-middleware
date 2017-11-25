@@ -6,6 +6,6 @@ use Psr\Http\Message\{ServerRequestInterface, ResponseInterface};
 
 interface MiddlewareInterface{
 
-  public function handle(ServerRequestInterface $request, RequestHandlerInterface $next): ResponseInterface;
+  public function handle(ServerRequestInterface $request, RequestHandlerInterface $next);
 
 }
