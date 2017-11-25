@@ -24,10 +24,5 @@
     "psr-4": {
       "Psr\\Http\\Middleware\\": "src/"
     }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.x-dev"
-    }
   }
 }
